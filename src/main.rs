@@ -20,7 +20,7 @@ fn app() -> Html {
 
     html! {
         <div>
-            <button {on_click}>{"Click me!"}</button>
+            <button onclick={on_click}>{"Click me!"}</button>
             <p>{state.value}</p>
         </div>
     }

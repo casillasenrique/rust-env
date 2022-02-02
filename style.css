@@ -1,0 +1,29 @@
+html, body {
+  background-color: #161616;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  padding: 0.5em 0.75em;
+  outline: none;
+  border: none;
+  background-color: brown;
+  color: aliceblue;
+  border-radius: 4pt;
+  transition: background-color, transform 200ms ease-out;
+}
+
+button:hover {
+  background-color: rgb(192, 58, 58);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: 0.1rem solid aliceblue;
+}
+
+p {
+
+}
